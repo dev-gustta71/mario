@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author ="Gustavo Almeida">
+    <meta description: Jogo superMario>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="game-board">
+        <h1 class="main-title"><span id="pontos">   0</span></h1>
+        <h1 class="subtitle "> Fase: <span id="fase">   0</span></h1>
+        <img src="image/logoMario.png" class="logo">
+        <img src="" alt="" id="obstac">
+        <img src="image/clouds.png" class="clouds">
+        <img src="image/mario.gif" class="mario">
+        <img src="" id="gameOver">
+        <p class="pontuacao"><span id="pontosFinais"></span></p>
+        <marquee class="pontuacao" id="recomecar" loop behavior="alternate"></marquee>
+
+        <audio src="image/theme.mp3  "id="audioTematico"></audio>
+        <audio src="image/perdeu.mp3  "id="perdeu"></audio>
+        <audio src="image/pulo.mp3  "id="pulo"></audio>
+
+        
+        
+        <img src="image/pipe.png" class="pipe">
+
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
